@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: BodyParts
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Head
+    m_Hash: 130111906
+    m_CategoryList:
+    - m_Name: Goblin
+      m_Hash: 1982524054
+      m_Sprite: {fileID: 5730809215442676619, guid: 5f95a1b386eb35740b5b84b1e5301115, type: 3}
+    - m_Name: Wolf
+      m_Hash: 1502381276
+      m_Sprite: {fileID: 7444046612802208997, guid: cc29ef072eafe3749b9ffaf488000ca2, type: 3}
+    - m_Name: Orc
+      m_Hash: 1295333497
+      m_Sprite: {fileID: 8279025519675246754, guid: a4424c38e5171224aa16db00635595c9, type: 3}
+    - m_Name: Minotaur
+      m_Hash: -1593604950
+      m_Sprite: {fileID: -6949188780154711297, guid: aae3111d9163b754b817aa60ca56961b, type: 3}
+    - m_Name: Mary
+      m_Hash: 905915399
+      m_Sprite: {fileID: -3600844089774715062, guid: 69a08404a6bd6654c8681603ca4c3cd9, type: 3}
+    - m_Name: Almirage
+      m_Hash: 1930204036
+      m_Sprite: {fileID: 9110824501682198525, guid: 469354179b1f6da4eac6a86f645ff50c, type: 3}
+    - m_Name: Darkelf
+      m_Hash: -1573881781
+      m_Sprite: {fileID: -240112632719861657, guid: a5d6675640f22624eb8e862d5fd9882d, type: 3}
+    - m_Name: Ent
+      m_Hash: 621176117
+      m_Sprite: {fileID: -3197492433723401534, guid: 0ec71d492a9dfe241a8f0f57d2bb59dd, type: 3}
+    - m_Name: Mad
+      m_Hash: -1321584602
+      m_Sprite: {fileID: -3389406661535148353, guid: 237e24e1e9101984194eb63285b1c0ff, type: 3}
+    - m_Name: Merman
+      m_Hash: 67331825
+      m_Sprite: {fileID: 8270008153240838518, guid: b2738d9feded90741ab5de3e63d92907, type: 3}
+    - m_Name: Ogre
+      m_Hash: -1887779727
+      m_Sprite: {fileID: -8779681549725420321, guid: 3ded8f35351b3ac4b813f24dde8f979d, type: 3}
+    - m_Name: Skelton
+      m_Hash: -690513680
+      m_Sprite: {fileID: 5487535801081936534, guid: 93cd849fec8574b4daedf8891a563d65, type: 3}
+    - m_Name: Slime
+      m_Hash: 1659664943
+      m_Sprite: {fileID: 368543389579951487, guid: 3d1a49f5493cbf949b9fb2d9ed1a23f6, type: 3}
+    - m_Name: Chimera
+      m_Hash: 954614846
+      m_Sprite: {fileID: -8072789593472277341, guid: 38ea13cae3d9f944d9792a28f97afe68, type: 3}
+  - m_Name: Body
+    m_Hash: 2073732236
+    m_CategoryList:
+    - m_Name: Goblin
+      m_Hash: 1982524054
+      m_Sprite: {fileID: -4236769712322627067, guid: 5f95a1b386eb35740b5b84b1e5301115, type: 3}
+    - m_Name: Wolf
+      m_Hash: 1502381276
+      m_Sprite: {fileID: 8955941877185701628, guid: cc29ef072eafe3749b9ffaf488000ca2, type: 3}
+    - m_Name: Orc
+      m_Hash: 1295333497
+      m_Sprite: {fileID: 8440968429003460995, guid: a4424c38e5171224aa16db00635595c9, type: 3}
+    - m_Name: Minotaur
+      m_Hash: -1593604950
+      m_Sprite: {fileID: 2611965596916040492, guid: aae3111d9163b754b817aa60ca56961b, type: 3}
+    - m_Name: Mary
+      m_Hash: 905915399
+      m_Sprite: {fileID: 6889735108516242203, guid: 69a08404a6bd6654c8681603ca4c3cd9, type: 3}
+    - m_Name: Almirage
+      m_Hash: 1930204036
+      m_Sprite: {fileID: -5778231752225291495, guid: 469354179b1f6da4eac6a86f645ff50c, type: 3}
+    - m_Name: Darkelf
+      m_Hash: -1573881781
+      m_Sprite: {fileID: -5657312873878606351, guid: a5d6675640f22624eb8e862d5fd9882d, type: 3}
+    - m_Name: Ent
+      m_Hash: 621176117
+      m_Sprite: {fileID: -9096045025675611268, guid: 0ec71d492a9dfe241a8f0f57d2bb59dd, type: 3}
+    - m_Name: Mad
+      m_Hash: -1321584602
+      m_Sprite: {fileID: 3659070517257437139, guid: 237e24e1e9101984194eb63285b1c0ff, type: 3}
+    - m_Name: Merman
+      m_Hash: 67331825
+      m_Sprite: {fileID: 7555425891678114039, guid: b2738d9feded90741ab5de3e63d92907, type: 3}
+    - m_Name: Ogre
+      m_Hash: -1887779727
+      m_Sprite: {fileID: -202875197712387220, guid: 3ded8f35351b3ac4b813f24dde8f979d, type: 3}
+    - m_Name: Skelton
+      m_Hash: -690513680
+      m_Sprite: {fileID: -6132145243367081084, guid: 93cd849fec8574b4daedf8891a563d65, type: 3}
+    - m_Name: Slime
+      m_Hash: 1659664943
+      m_Sprite: {fileID: 2542698315722941828, guid: 3d1a49f5493cbf949b9fb2d9ed1a23f6, type: 3}
+    - m_Name: Chimera
+      m_Hash: 954614846
+      m_Sprite: {fileID: 288909989281447844, guid: 38ea13cae3d9f944d9792a28f97afe68, type: 3}
+  - m_Name: RightArm
+    m_Hash: 1806956327
+    m_CategoryList:
+    - m_Name: Goblin
+      m_Hash: 1982524054
+      m_Sprite: {fileID: -5475195939017344560, guid: 5f95a1b386eb35740b5b84b1e5301115, type: 3}
+    - m_Name: Wolf
+      m_Hash: 1502381276
+      m_Sprite: {fileID: -6836296053957781073, guid: cc29ef072eafe3749b9ffaf488000ca2, type: 3}
+    - m_Name: Orc
+      m_Hash: 1295333497
+      m_Sprite: {fileID: -4708805441359554227, guid: a4424c38e5171224aa16db00635595c9, type: 3}
+    - m_Name: Minotaur
+      m_Hash: -1593604950
+      m_Sprite: {fileID: 79228801822991836, guid: aae3111d9163b754b817aa60ca56961b, type: 3}
+    - m_Name: Mary
+      m_Hash: 905915399
+      m_Sprite: {fileID: -3570810436357905546, guid: 69a08404a6bd6654c8681603ca4c3cd9, type: 3}
+    - m_Name: Almirage
+      m_Hash: 1930204036
+      m_Sprite: {fileID: 3374433071909089686, guid: 469354179b1f6da4eac6a86f645ff50c, type: 3}
+    - m_Name: Darkelf
+      m_Hash: -1573881781
+      m_Sprite: {fileID: 4569890637910306006, guid: a5d6675640f22624eb8e862d5fd9882d, type: 3}
+    - m_Name: Ent
+      m_Hash: 621176117
+      m_Sprite: {fileID: 5618494470276447533, guid: 0ec71d492a9dfe241a8f0f57d2bb59dd, type: 3}
+    - m_Name: Mad
+      m_Hash: -1321584602
+      m_Sprite: {fileID: 7311905990434426037, guid: 237e24e1e9101984194eb63285b1c0ff, type: 3}
+    - m_Name: Merman
+      m_Hash: 67331825
+      m_Sprite: {fileID: -7527421067239334709, guid: b2738d9feded90741ab5de3e63d92907, type: 3}
+    - m_Name: Ogre
+      m_Hash: -1887779727
+      m_Sprite: {fileID: -4168365034886982111, guid: 3ded8f35351b3ac4b813f24dde8f979d, type: 3}
+    - m_Name: Skelton
+      m_Hash: -690513680
+      m_Sprite: {fileID: 7983166097353148585, guid: 93cd849fec8574b4daedf8891a563d65, type: 3}
+    - m_Name: Slime
+      m_Hash: 1659664943
+      m_Sprite: {fileID: -458641133534639524, guid: 3d1a49f5493cbf949b9fb2d9ed1a23f6, type: 3}
+    - m_Name: Chimera
+      m_Hash: 954614846
+      m_Sprite: {fileID: -1070497165448651278, guid: 38ea13cae3d9f944d9792a28f97afe68, type: 3}
+  - m_Name: LeftArm
+    m_Hash: -343733542
+    m_CategoryList:
+    - m_Name: Goblin
+      m_Hash: 1982524054
+      m_Sprite: {fileID: -408260282584122230, guid: 5f95a1b386eb35740b5b84b1e5301115, type: 3}
+    - m_Name: Wolf
+      m_Hash: 1502381276
+      m_Sprite: {fileID: 8725252868083873810, guid: cc29ef072eafe3749b9ffaf488000ca2, type: 3}
+    - m_Name: Orc
+      m_Hash: 1295333497
+      m_Sprite: {fileID: 5734647900387566449, guid: a4424c38e5171224aa16db00635595c9, type: 3}
+    - m_Name: Minotaur
+      m_Hash: -1593604950
+      m_Sprite: {fileID: 960688458483284087, guid: aae3111d9163b754b817aa60ca56961b, type: 3}
+    - m_Name: Mary
+      m_Hash: 905915399
+      m_Sprite: {fileID: 1664818292651196748, guid: 69a08404a6bd6654c8681603ca4c3cd9, type: 3}
+    - m_Name: Almirage
+      m_Hash: 1930204036
+      m_Sprite: {fileID: -5866778184101949432, guid: 469354179b1f6da4eac6a86f645ff50c, type: 3}
+    - m_Name: Darkelf
+      m_Hash: -1573881781
+      m_Sprite: {fileID: -9187145150191136298, guid: a5d6675640f22624eb8e862d5fd9882d, type: 3}
+    - m_Name: Ent
+      m_Hash: 621176117
+      m_Sprite: {fileID: -6407380194407880961, guid: 0ec71d492a9dfe241a8f0f57d2bb59dd, type: 3}
+    - m_Name: Mad
+      m_Hash: -1321584602
+      m_Sprite: {fileID: 7561822155554827448, guid: 237e24e1e9101984194eb63285b1c0ff, type: 3}
+    - m_Name: Merman
+      m_Hash: 67331825
+      m_Sprite: {fileID: -9123526906516478994, guid: b2738d9feded90741ab5de3e63d92907, type: 3}
+    - m_Name: Ogre
+      m_Hash: -1887779727
+      m_Sprite: {fileID: 5207758074290773884, guid: 3ded8f35351b3ac4b813f24dde8f979d, type: 3}
+    - m_Name: Skelton
+      m_Hash: -690513680
+      m_Sprite: {fileID: -4953367320109384049, guid: 93cd849fec8574b4daedf8891a563d65, type: 3}
+    - m_Name: Slime
+      m_Hash: 1659664943
+      m_Sprite: {fileID: -3711818451352614709, guid: 3d1a49f5493cbf949b9fb2d9ed1a23f6, type: 3}
+    - m_Name: Chimera
+      m_Hash: 954614846
+      m_Sprite: {fileID: -295700801790340846, guid: 38ea13cae3d9f944d9792a28f97afe68, type: 3}
+  - m_Name: RightLeg
+    m_Hash: -2042820100
+    m_CategoryList:
+    - m_Name: Goblin
+      m_Hash: 1982524054
+      m_Sprite: {fileID: 5755043183786803515, guid: 5f95a1b386eb35740b5b84b1e5301115, type: 3}
+    - m_Name: Wolf
+      m_Hash: 1502381276
+      m_Sprite: {fileID: -130435296094828817, guid: cc29ef072eafe3749b9ffaf488000ca2, type: 3}
+    - m_Name: Orc
+      m_Hash: 1295333497
+      m_Sprite: {fileID: -6366390256878566131, guid: a4424c38e5171224aa16db00635595c9, type: 3}
+    - m_Name: Minotaur
+      m_Hash: -1593604950
+      m_Sprite: {fileID: 3852202231343074747, guid: aae3111d9163b754b817aa60ca56961b, type: 3}
+    - m_Name: Mary
+      m_Hash: 905915399
+      m_Sprite: {fileID: -756957504831093852, guid: 69a08404a6bd6654c8681603ca4c3cd9, type: 3}
+    - m_Name: Almirage
+      m_Hash: 1930204036
+      m_Sprite: {fileID: -1068680710298930745, guid: 469354179b1f6da4eac6a86f645ff50c, type: 3}
+    - m_Name: Darkelf
+      m_Hash: -1573881781
+      m_Sprite: {fileID: 8471229898133760133, guid: a5d6675640f22624eb8e862d5fd9882d, type: 3}
+    - m_Name: Ent
+      m_Hash: 621176117
+      m_Sprite: {fileID: -5838275108277258568, guid: 0ec71d492a9dfe241a8f0f57d2bb59dd, type: 3}
+    - m_Name: Mad
+      m_Hash: -1321584602
+      m_Sprite: {fileID: -2420111779894035988, guid: 237e24e1e9101984194eb63285b1c0ff, type: 3}
+    - m_Name: Merman
+      m_Hash: 67331825
+      m_Sprite: {fileID: 9135597880026491346, guid: b2738d9feded90741ab5de3e63d92907, type: 3}
+    - m_Name: Ogre
+      m_Hash: -1887779727
+      m_Sprite: {fileID: -5809516753880637749, guid: 3ded8f35351b3ac4b813f24dde8f979d, type: 3}
+    - m_Name: Skelton
+      m_Hash: -690513680
+      m_Sprite: {fileID: -6909415933747871693, guid: 93cd849fec8574b4daedf8891a563d65, type: 3}
+    - m_Name: Slime
+      m_Hash: 1659664943
+      m_Sprite: {fileID: -6875693984060724655, guid: 3d1a49f5493cbf949b9fb2d9ed1a23f6, type: 3}
+    - m_Name: Chimera
+      m_Hash: 954614846
+      m_Sprite: {fileID: -7719344463171484829, guid: 38ea13cae3d9f944d9792a28f97afe68, type: 3}
+  - m_Name: LeftLeg
+    m_Hash: 101577729
+    m_CategoryList:
+    - m_Name: Goblin
+      m_Hash: 1982524054
+      m_Sprite: {fileID: 3296870002488982280, guid: 5f95a1b386eb35740b5b84b1e5301115, type: 3}
+    - m_Name: Wolf
+      m_Hash: 1502381276
+      m_Sprite: {fileID: 341809711022862023, guid: cc29ef072eafe3749b9ffaf488000ca2, type: 3}
+    - m_Name: Orc
+      m_Hash: 1295333497
+      m_Sprite: {fileID: -8347058379432316496, guid: a4424c38e5171224aa16db00635595c9, type: 3}
+    - m_Name: Minotaur
+      m_Hash: -1593604950
+      m_Sprite: {fileID: 1552743490863497797, guid: aae3111d9163b754b817aa60ca56961b, type: 3}
+    - m_Name: Mary
+      m_Hash: 905915399
+      m_Sprite: {fileID: -942031727433698421, guid: 69a08404a6bd6654c8681603ca4c3cd9, type: 3}
+    - m_Name: Almirage
+      m_Hash: 1930204036
+      m_Sprite: {fileID: 3777540137169222265, guid: 469354179b1f6da4eac6a86f645ff50c, type: 3}
+    - m_Name: Darkelf
+      m_Hash: -1573881781
+      m_Sprite: {fileID: 4128680689823546527, guid: a5d6675640f22624eb8e862d5fd9882d, type: 3}
+    - m_Name: Ent
+      m_Hash: 621176117
+      m_Sprite: {fileID: -693205837900141591, guid: 0ec71d492a9dfe241a8f0f57d2bb59dd, type: 3}
+    - m_Name: Mad
+      m_Hash: -1321584602
+      m_Sprite: {fileID: -1710449358355278576, guid: 237e24e1e9101984194eb63285b1c0ff, type: 3}
+    - m_Name: Merman
+      m_Hash: 67331825
+      m_Sprite: {fileID: 346442420850143118, guid: b2738d9feded90741ab5de3e63d92907, type: 3}
+    - m_Name: Ogre
+      m_Hash: -1887779727
+      m_Sprite: {fileID: 5866182665339349899, guid: 3ded8f35351b3ac4b813f24dde8f979d, type: 3}
+    - m_Name: Skelton
+      m_Hash: -690513680
+      m_Sprite: {fileID: -463337753643589543, guid: 93cd849fec8574b4daedf8891a563d65, type: 3}
+    - m_Name: Slime
+      m_Hash: 1659664943
+      m_Sprite: {fileID: 8065215198520230363, guid: 3d1a49f5493cbf949b9fb2d9ed1a23f6, type: 3}
+    - m_Name: Chimera
+      m_Hash: 954614846
+      m_Sprite: {fileID: -776098581546260464, guid: 38ea13cae3d9f944d9792a28f97afe68, type: 3}
